@@ -1,0 +1,65 @@
+h1 {font-family: 'Lato', sans-serif;}
+p {font-family: 'Lato', sans-serif;}
+li {font-family: 'Lato', sans-serif;}
+.inline-block {
+    display: inline-block;
+    vertical-align: right; 
+}
+.logo {
+    padding: 1%;
+    text-align: center;
+}
+nav {
+    width: 73%;
+    padding: 1%;
+} 
+.inline-block ul {
+    width: 50%;
+    margin-left: 65%;
+    word-spacing: 1rem;
+    font-weight: bold;
+}
+section {
+    background-color:#F9F9F9;
+    width: 90%;
+    height: 500px; 
+    padding: 25px;
+}    
+.content {
+    height: 50%
+} 
+.content img {
+    float: left;
+    padding: 20px; 
+}
+.content {
+    width: 90%; 
+    padding: 0 auto;
+    margin: 50px; 
+}    
+footer {
+    position: absolute;
+    bottom; 0;
+    width: 90%;
+    height: 2.5rem; 
+    text-align: center;
+    background-color: #white;
+    padding: 10px;
+    margin: 10px;
+} 
+button {
+    background-color: #7C69A5; 
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 15px; 
+    width: 169px;
+    height: 52;
+} 
+.footerlist li {
+    display: inline-block;
+    vertical-align: center;
+    padding: 10px;
+    justify-items: center;
+    sty
+}  
