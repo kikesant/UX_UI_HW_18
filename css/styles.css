@@ -155,11 +155,15 @@ button {
 .photo3 img {
     padding: 60px; 
 }  
+.myWork h3 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+} 
 .nationalparks {
     height: 400px;
     grid-area: np; 
     background-color: #F1EBF0; 
-}
+} 
 .footerlist li {
     display: inline-block;
     vertical-align: center;
