@@ -8,6 +8,10 @@ body { margin: 12%}
     display: inline-block;
     vertical-align: right; 
 }
+header {
+    width: 90%; 
+    margin-left: 50px;
+}    
 .logo {
     padding: 1%;
     text-align: center;
@@ -40,9 +44,8 @@ nav {
     margin: 50px; 
 }    
 footer {
-    position: absolute;
-    bottom; 0;
     width: 90%;
+    bottom; 0;
     height: 2.5rem; 
     text-align: center;
     background-color: #white;
@@ -165,8 +168,60 @@ button {
     background-color: #F1EBF0; 
 } 
 .footerlist li {
+    text-align: center;
     display: inline-block;
     vertical-align: center;
     padding: 10px;
-    justify-items: center;
+}  
+@media (max-width: 600px) {
+    .flexContainer {
+      flex-direction: column-reverse;
+    }
+    .flexContainer div {
+        width: 115%;
+      }  
+    .workGrid { 
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-areas: 
+        "foto" 
+        "qt" 
+        "fototeach" 
+        "twa" 
+        "fotonational"
+        "np"   
+    } 
+    .photo1{ 
+        width: 90%;
+        text-align: center;
+    }
+    .queertrip{ 
+        width: 90%;
+        text-align: center;
+    }
+    .photo2{ 
+        width: 90%;
+        text-align: center;
+    }
+    .teachwithafrica{ 
+        width: 90%;
+        text-align: center;
+    }
+    .photo3{ 
+        width: 90%;
+        text-align: center;
+    }
+    .nationalparks{ 
+        width: 90%;
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .workGrid p {
+        margin-left: 20px;
+        text-align: center;
+    } 
 }  
