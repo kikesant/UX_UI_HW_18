@@ -9,6 +9,12 @@ li {
     font-family: 'Lato', sans-serif;
 }
 body {margin: 12%}
+.navigation p {
+    margin-left: 20px;
+}
+.navigation img {
+    float: inline-start;
+}
 .heroImg p {
     max-width: 1150px;
 }
@@ -29,6 +35,8 @@ nav {
     padding: 2%;
 } 
 .inline-block ul {
+
+    justify-content: flex-end;
     width: 50%;
     margin-left: 65%;
     word-spacing: 1rem;
@@ -90,7 +98,6 @@ button {
     display: flex;
     padding: 5px;
     flex-direction: row;
-    padding: 10px;
 } 
 .flexContainer div { 
     background-color: #F9F9F9;
@@ -102,6 +109,7 @@ button {
 
 /* <!--  My Work section coded using CSS grid -->*/
 .workGrid { 
+    padding: 5px;
     display: grid; 
     grid-template-columns: 50% 50%; 
     grid-template-areas: 
@@ -184,14 +192,16 @@ button {
 @media (max-width: 600px) {
     .flexContainer {
       flex-direction: column;
+      padding: 5%;
     }
+    .content h1 {
+        float: 
+    } 
     .flexContainer div {
         width: 100%;
-      }  
-    body  {
-        margin: 0px;
-      }  
+      }   
     .workGrid { 
+        width: 100%;
         display: grid; 
         grid-template-columns: 1fr; 
         grid-template-areas: 
@@ -234,5 +244,8 @@ button {
     .workGrid p {
         margin-left: 20px;
         text-align: center;
+    } 
+    .workGrid h3 {
+        align-self: center;
     } 
 }  
